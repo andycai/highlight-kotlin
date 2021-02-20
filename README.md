@@ -3,5 +3,5 @@
 
 # 目录
 
-lambda
-符号
+- lambda
+- 符号

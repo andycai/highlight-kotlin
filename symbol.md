@@ -81,7 +81,7 @@ val nullClass: NullClass ?= null
 nullClass!!.nullFun() 
 ```
 
-转化成 JAVA 代码
+转化成 java 代码
 
 ```
 NullClass nullClass = null;
