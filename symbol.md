@@ -1,6 +1,6 @@
 # Kotlin 中的符号
 
-## ?
+## 符号：?
 
 ### "?" 修饰在成员变量的类型后面
 表示这个变量可以为 null，系统在任何情况下不会报它的空指针异常。  
@@ -54,4 +54,40 @@ num?.let {
   println("null")
 }
 
+```
+
+## 符号：!!
+
+### "!!" 放在对象后面
+代表该对象如果为 null 则抛出异常
+
+### "!!" 放在方法传递实参后面
+也是代表不能为 null，为 null 会抛异常
+
+```
+val len = name!!.length // 如果name不为空，则返回name.length，如果name为空，则抛出异常NullPointerException 
+```
+
+使用断!! 可以很方便的在抛出空指针异常的时候定位到异常的变量的位置，但是千万不要连续使用断言!!
+
+```
+student!!.person!!.name // 如果报空指针异常了则无法判断到底是student为空还是person为空，所以不要连续使用断言!! 
+```
+
+"!!." 的用法就是相当于 Java 里的 if()else() 判断 null
+
+```
+val nullClass: NullClass ?= null
+nullClass!!.nullFun() 
+```
+
+转化成 JAVA 代码
+
+```
+NullClass nullClass = null;
+if (nullClass!=null) {
+  nullClass.nullFun();
+}else {
+  throw new NullPointerException();
+}
 ```
