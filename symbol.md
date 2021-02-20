@@ -34,3 +34,24 @@ person?.let {
   println([it.name](http://it.name)) // 输出name
 } 
 ```
+
+### ?.let 和 ?:let 连用
+
+```
+// 输出：not null
+var name: String? = "andy"
+num?.let {
+  println("It's not null")
+}?:let {
+  println("It's null")
+}
+
+// 输出：null
+var name: String? = null
+num?.let {
+  println("not null")
+}?:let {
+  println("null")
+}
+
+```
