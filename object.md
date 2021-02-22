@@ -33,4 +33,5 @@ print("data1 name = ${data2.name}")
 - [when](./when.md)
 - [符号](./symbol.md)
 - [object](./object.md)
-- [companion](
+- [companion](./companion.md)
+
