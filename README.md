@@ -3,6 +3,6 @@
 
 # 目录
 
-- [when](../../when.mk)
-- [符号](../../symbol.mk)
+- [when](./when.md)
+- [符号](./symbol.md)
 
