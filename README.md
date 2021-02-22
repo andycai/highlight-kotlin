@@ -5,4 +5,6 @@
 
 - [when](./when.md)
 - [符号](./symbol.md)
+- [object](./object.md)
+- [companion](./companion.md)
 
