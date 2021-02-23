@@ -2,6 +2,19 @@
 
 ---
 
+## 安装 SDKMan
+
+```bash
+curl -s https://get.sdkman.io | bash
+source "/Users/andy/.sdkman/bin/sdkman-init.sh"
+```
+
+## 安装Kotlin
+
+```bash
+sdk install kotlin
+```
+
 ## Kotlin 使用命令行执行kts脚本
 
 Kotlin 也可以作为一个脚本语言使用，文件后缀名为 .kts 。
