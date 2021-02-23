@@ -1,5 +1,14 @@
-# highlight-kotlin
- Highlight in Kotlin.
+# Kotlin - 类型判断
+
+---
+
+**is** 判断属于某类型
+
+**!is** 判断不属于某类型
+
+**as** 类型墙砖，失败哦爆出类型强转失败异常
+
+**as?** 类型前传，失败返回 **null**
 
 
 

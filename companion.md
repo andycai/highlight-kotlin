@@ -1,4 +1,6 @@
-# companion 对象
+# Kotlin - companion object
+
+---
 
 类内部的对象声明可以用 companion 关键字标记，这样它就与外部类关联在一起，我们就可以直接通过外部类访问到对象的内部元素。类似其他面向对象语言的 static 实现的静态属性和方法。
 
@@ -39,10 +41,19 @@ class MyClass {
 }
 ```
 
-[目录](./README.md)
+## [目录](./README.md)
 
 - [when](./when.md)
 - [符号](./symbol.md)
 - [object](./object.md)
 - [companion](./companion.md)
+- [标准函数](./std-func.md)
+- [类型判断](./type-check.md)
+- [lambda](./lambdas.md)
+- [委托](./delegates.md)
+- [扩展函数](./extension.md)
+- [脚本](./scripting.md)
+- [协程](./coroutines.md)
+- [泛型](./generics.md)
+- [其他特性](./other.md)
 

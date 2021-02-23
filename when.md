@@ -1,4 +1,6 @@
-# Kotlin 中的 when
+# Kotlin - when
+
+---
 
 when 将它的参数和所有的分支条件顺序比较，直到某个分支满足条件。
 
@@ -53,10 +55,21 @@ when {
 }
 ```
 
-[目录](./README.md)
+
+
+## [目录](./README.md)
 
 - [when](./when.md)
 - [符号](./symbol.md)
 - [object](./object.md)
 - [companion](./companion.md)
+- [标准函数](./std-func.md)
+- [类型判断](./type-check.md)
+- [lambda](./lambdas.md)
+- [委托](./delegates.md)
+- [扩展函数](./extension.md)
+- [脚本](./scripting.md)
+- [协程](./coroutines.md)
+- [泛型](./generics.md)
+- [其他特性](./other.md)
 
